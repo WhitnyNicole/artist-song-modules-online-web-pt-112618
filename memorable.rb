@@ -1,5 +1,8 @@
 require_relative '../lib/concerns/memorable'
 
+module Memorable
+end
+
   class Artist 
    self.reset_all
     self.all.clear
